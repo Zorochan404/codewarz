@@ -5,8 +5,8 @@ import styled, { keyframes } from "styled-components";
 
 import orangeBlob from "../../assets/orangeBlob.png"
 import oliveBlob from "../../assets/blop12.png"
-import pinkBlob from "../../assets/blobPink.png";
-import purpleBlob from "../../assets/blob purple.png";
+// import pinkBlob from "../../assets/blobPink.png";
+// import purpleBlob from "../../assets/blob purple.png";
 import whiteBlob from "../../assets/blob white.png";
 import arrow from "../../assets/Arrow Right.svg";
 import coding from "../../assets/coding.png";

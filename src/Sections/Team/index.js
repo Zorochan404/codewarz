@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import styled from 'styled-components';
 
 import img1 from "../../assets/img1.png";
@@ -82,7 +82,7 @@ const Position = styled.h2`
   margin-top: 1rem;
 `;
 
-const MemberComponent = ({ img, name = "", position = "" }) => {
+const MemberComponent = ({ img , name = "", position = "" }) => {
   return (
     <Item>
       <ImageContainer>

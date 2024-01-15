@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import wave from "../../assets/waves.svg";
+// import wave from "../../assets/waves.svg";
 import rocket from "../../assets/rocket image.png";
 import human from "../../assets/human.svg";
 import hand from "../../assets/hand.svg";
@@ -7,10 +7,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import orangeBlob from "../../assets/orangeBlob.png"
-import oliveBlob from "../../assets/blop12.png"
+// /
 // import pinkBlob from "../../assets/blobPink.png";
 // import purpleBlob from "../../assets/blob purple.png";
-import whiteBlob from "../../assets/blob white.png";
+// import whiteBlob from "../../assets/blob white.png";
 
 
 const move = keyframes`
@@ -30,14 +30,14 @@ const Blobs = styled.div`
 `;
 
 
-const OliveBlob = styled.div`
-  width: calc(12% + 10vw);
-  position: absolute;
-  left: 1rem;
-  top: calc(4rem + 0vw);
-  z-index: 0;
-  // animation: ${move} 3.0s ease infinite;
-`;
+// const OliveBlob = styled.div`
+//   width: calc(12% + 10vw);
+//   position: absolute;
+//   left: 1rem;
+//   top: calc(4rem + 0vw);
+//   z-index: 0;
+//   // animation: ${move} 3.0s ease infinite;
+// `;
 
 const OrangeBlob = styled.div`
   width: calc(25% + 10vw);
@@ -64,12 +64,12 @@ const AboutSection = styled.section`
   justify-content: center;
   align-items: center;
 `;
-const Waves = styled.img`
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: -1rem;
-`;
+// const Waves = styled.img`
+//   width: 100%;
+//   height: auto;
+//   position: absolute;
+//   top: -1rem;
+// `;
 const Hand = styled.div`
   position: absolute;
   bottom: -1rem;
@@ -176,7 +176,7 @@ const About = () => {
   revealRefs.current = [];
 
   useEffect(() => {
-    const element = ref.current;
+    // const element = ref.current;
     ////
 
     // const t1 = gsap.timeline({

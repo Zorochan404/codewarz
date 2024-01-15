@@ -1,13 +1,13 @@
-import React, { lazy } from "react";
+// import  { lazy } from "react";
 import styled from "styled-components";
 
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import Carousal from "../../components/Carousal/Carousal";
 // import image1 from "../../assets/Website Image-1.png"
 
-const Card = lazy(() => import("../../components/Card/index"));
+// const Card = lazy(() => import("../../components/Card/index"));
 
 const Section = styled.div`
   min-height: 100vh;
@@ -72,14 +72,14 @@ color: var(--white);
 
 
 const Gallery = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
 
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+  //   speed: 1000,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  // };
 
   return (
     
