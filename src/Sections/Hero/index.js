@@ -222,7 +222,7 @@ const HeroSection = () => {
           </Topic>
           <Title>Unleash the power of creativity</Title>
           <SubText>
-            we help fast growing companies build award winning websites
+            More details coming soon
           </SubText>
           <CTA>
             Get in touch &nbsp;
