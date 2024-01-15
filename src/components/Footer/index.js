@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Twitter from "../../assets/twitter-square-brands.svg";
+// import Twitter from "../../assets/twitter-square-brands.svg";
 import Instagram from "../../assets/instagram-square-brands.svg";
 import Gmail from "../../assets/envelope-open-solid.svg";
 

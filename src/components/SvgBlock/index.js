@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+import PropTypes from "prop-types"; // Import prop-types
 import styled from "styled-components";
 
 const Rb = styled.div`
@@ -19,12 +20,16 @@ const Rb = styled.div`
 
 const SvgBlock = ({ svg }) => {
   const SvgIcon = require(`../../assets/${svg}`);
-  //console.log(SvgIcon);
   return (
     <Rb id="svgBlock">
       <img src={SvgIcon} alt="Services" />
     </Rb>
   );
+};
+
+// Add prop-type validation
+SvgBlock.propTypes = {
+  svg: PropTypes.string.isRequired,
 };
 
 export default SvgBlock;

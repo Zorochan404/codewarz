@@ -1,5 +1,6 @@
 // import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 import img1 from "../../assets/img1.png";
 import img2 from "../../assets/img2.jpeg";
@@ -92,6 +93,12 @@ const MemberComponent = ({ img , name = "", position = "" }) => {
       <Position>{position}</Position>
     </Item>
   );
+};
+
+MemberComponent.propTypes = {
+  img: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  position: PropTypes.string.isRequired,
 };
 
 function Team() {

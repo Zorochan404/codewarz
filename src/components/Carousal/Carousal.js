@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+// import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import {Swiper, SwiperSlide} from "swiper/react"
 import "swiper/css"
@@ -12,7 +12,6 @@ import {Pagination,Navigation,Autoplay, EffectCards} from "swiper/modules"
 import Tube from "../../assets/3dtube.png";
 import Cone from "../../assets/3dtriangle.png";
 import Capsule from "../../assets/3dcapsule.png";
-import Arrow from "../../assets/Arrow.svg"
 
 const Container = styled.div`
 width:25vw;
