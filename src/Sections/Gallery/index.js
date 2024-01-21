@@ -65,6 +65,7 @@ const Title = styled.h1`
 const SubText = styled.h5`
 color: var(--white);
   display: inline-block;
+  text-align: center;
   font-size: calc(1.3rem);
   margin-top: 1.5rem;
 `
@@ -91,7 +92,7 @@ const Gallery = () => {
             GALLERY
           </Title>
           <SubText>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, sed harum quisquam sunt autem nulla velit ab accusamus reiciendis earum reprehenderit a magni ex veniam aut et incidunt hic atque facilis ipsum quae voluptate inventore. Iste a inventore dolorem, quod architecto possimus itaque obcaecati delectus perferendis laborum libero eveniet harum.
+            Explore moments from our club events captured in these vibrant photos. Each image tells a unique story, showcasing the energy, excitement, and camaraderie that define our club gatherings. 
           </SubText>
         </Box>
       </Container>

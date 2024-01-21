@@ -8,10 +8,13 @@ import Tube from "../../assets/3dtube.png";
 // import Capsule from "../../assets/3dcapsule.png";
 
 import TextBlock from "../../components/TextBlock";
-import SvgBlock from "../../components/SvgBlock";
+// import SvgBlock from "../../components/SvgBlock";
 
 // const TextBlock = lazy(() => import("../../components/TextBlock"));
 // const SvgBlock = lazy(() => import("../../components/SvgBlock"));
+
+import CodestallionImg from '../../assets/gallery/CC_mystery 1.jpg'
+import DecodeStackImg from '../../assets/gallery/CC_mystery 2.jpg'
 
 const ServiceSection = styled.section`
   width: 100vw;
@@ -343,7 +346,10 @@ const Events = () => {
         <OBJ>
           <img src={Tube} alt="Tube Object" width="400" height="400" />
         </OBJ>
-        <SvgBlock svg="Design.svg" />
+        {/* <SvgBlock svg="Design.svg" /> */}
+        <div style={{width: '500px', height: '500px'}}>
+          <img src={CodestallionImg} alt="" />
+        </div>
       </Content>
       <Content >
         <TextBlock
@@ -359,7 +365,9 @@ const Events = () => {
         {/* <OBJ>
           <img src={Cone} alt="Cone Object" width="400" height="400" />
         </OBJ> */}
-        <SvgBlock svg="Develope.svg" />
+        <div style={{width: '500px', height: '500px'}}>
+          <img src={DecodeStackImg} alt="" />
+        </div>
       </Content>
       {/* <Content>
         <TextBlock
