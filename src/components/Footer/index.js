@@ -47,18 +47,18 @@ const Footer = () => {
   return (
     <FOOTER>
       <LeftText>
-        © 2021 Built by{" "}
-          @Jyotirmoy
+        ©{" "}CodeWarz{" "}2024
       </LeftText>
       <RightText>
-        Reach out to me via 😉
+        Connect with us!
         
         &nbsp;
-        <a href="https://www.instagram.com/jyotirmxy/">
+        <a href="https://www.instagram.com/codewar_aec2024/">
           <img src={Instagram} alt="Instagram" />
         </a>
         &nbsp;
-        <a href="jyotirmoyganguly.connect@gmail.com?subject=Email From Your Website">
+        <a href="codewar.outreach@gmail.com
+?subject=Email From Your Website">
           <img src={Gmail} alt="Gmail" />
         </a>
       </RightText>

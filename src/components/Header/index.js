@@ -256,7 +256,7 @@ const Header = () => {
           Gallery
         </a>
         <a href="#team" onClick={(e) => scrollUp("team", e)}>
-          Team
+          Sponsors
         </a>
         <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
           <Button>Contact Us</Button>
@@ -279,7 +279,7 @@ const Header = () => {
           Gallery
         </a>
         <a href="#team" onClick={(e) => scrollUp("team", e)}>
-          Team
+          Sponsors
         </a>
         <a href="#contact" onClick={(e) => handleClick("contact", e)}>
           <Button>Contact Us</Button>
