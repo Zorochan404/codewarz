@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import styled from "styled-components";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Tube from "../../assets/3dtube.png";
+// import Tube from "../../assets/3dtube.png";
 // import Cone from "../../assets/3dtriangle.png";
 // import Capsule from "../../assets/3dcapsule.png";
 
@@ -103,20 +103,20 @@ const Content = styled.div`
   }
 `;
 
-const OBJ = styled.div`
-  position: absolute;
-  top: 80%;
-  right: 35%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20vw;
-  /* z-index: 1; */
+// const OBJ = styled.div`
+//   position: absolute;
+//   top: 80%;
+//   right: 35%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 20vw;
+//   /* z-index: 1; */
 
-  @media only Screen and (max-width: 48em) {
-    opacity: 0.5;
-  }
-`;
+//   @media only Screen and (max-width: 48em) {
+//     opacity: 0.5;
+//   }
+// `;
 
 const Events = () => {
   const ref = useRef(null);
@@ -343,9 +343,9 @@ const Events = () => {
             </h5>
           }
         />
-        <OBJ>
+        {/* <OBJ>
           <img src={Tube} alt="Tube Object" width="400" height="400" />
-        </OBJ>
+        </OBJ> */}
         {/* <SvgBlock svg="Design.svg" /> */}
         <div style={{width: '500px', height: '500px'}}>
           <img src={CodestallionImg} alt="" />
