@@ -240,7 +240,7 @@ const About = () => {
             </Human>
 
             <Text>
-            <p>The annual technical event of AEC Coding Club - CODEWAR 4.0, organized under the banner of Udbhavanam - the annual technical fest of Assam Engineering College.</p>
+            <p>The annual technical event of AEC Coding Club - CODEWAR 5.0, organized under the banner of Udbhavanam - the annual technical fest of Assam Engineering College.</p>
             <p>
               <br/>
             Codestellation: A 24 hours software based hackathon shall be conducted starting from introduction of problem statement to submission of the final software
