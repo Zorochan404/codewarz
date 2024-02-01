@@ -218,7 +218,7 @@ const HeroSection = () => {
         <Lb id="leftBlock">
           <Topic>
             <Circle />
-            <span>CodeWarz 5.0</span>
+            <span>CodeWar 5.0</span>
           </Topic>
           <Title>Unleash the power of creativity</Title>
           <SubText>

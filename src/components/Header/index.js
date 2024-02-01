@@ -240,7 +240,7 @@ const Header = () => {
     <Headers ref={ref}>
       <Logo>
         {/*    */}
-        <h3>CodeWarz 5.0</h3>
+        <h3>CodeWar 5.0</h3>
       </Logo>
       <Nav>
         <a href="#home" onClick={(e) => scrollUp("home", e)}>
