@@ -336,7 +336,7 @@ const Events = () => {
       <Content ref={addToRefs}>
         <TextBlock
           topic="CODESTALLATION"
-          title={<h1>Prize worth 50k for winners</h1>}
+          title={<h1>Prize worth 20k for winners</h1>}
           subText={
             <h5>
               Winners and top performer will get jod and internship opportunity and goodies
@@ -354,7 +354,7 @@ const Events = () => {
       <Content >
         <TextBlock
           topic="DECODE_STACK"
-          title={<h1>Prize worth 25k for winners</h1>}
+          title={<h1>Prize worth 30k for winners</h1>}
           subText={
             <h5>
               Winners and top performer will get jod and internship opportunity and goodies.
