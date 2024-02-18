@@ -161,10 +161,10 @@ const Title = styled.h1`
   padding: 0.5rem 0;
 `;
 
-const SubText = styled.h5`
-  font-size: calc(0.5rem + 0.5vw);
-  color: var(--nav2);
-`;
+// const SubText = styled.h5`
+//   font-size: calc(0.5rem + 0.5vw);
+//   color: var(--nav2);
+// `;
 
 const CTA = styled.button`
   background-color: var(--white);
@@ -221,13 +221,16 @@ const HeroSection = () => {
             <span>CodeWar 5.0</span>
           </Topic>
           <Title>Unleash the power of creativity</Title>
-          <SubText>
+          {/* <SubText>
             More details coming soon
-          </SubText>
+          </SubText> */}
+          <a href="https://linktr.ee/aeccodewar5.0">
+
           <CTA>
-            Get in touch &nbsp;
+            Register now  &nbsp;
             <img src={arrow} alt="cta" width="100" height="100" />
           </CTA>
+          </a>
         </Lb>
 
         <MobileSvg
